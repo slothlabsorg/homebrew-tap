@@ -10,12 +10,12 @@ cask "wattsorbit" do
 
   on_arm do
     url "https://github.com/slothlabsorg/wattsorbit/releases/download/v#{version}/WattsOrbit_#{version}_aarch64.dmg"
-    sha256 "1b56cd2d481f5bea6df76a610e833e8310f9a266763de188b514e00b7da66971"
+    sha256 "c726dfd9441806230434c706577310f228db683580cc2339c196c6e108b85175"
   end
 
   on_intel do
     url "https://github.com/slothlabsorg/wattsorbit/releases/download/v#{version}/WattsOrbit_#{version}_x64.dmg"
-    sha256 "7a18aea42b6311c8026874d4066d11d5066623130026a84659393a9c4f45a638"
+    sha256 "7de7ad63be2504261f66549f01be4c24d40a1778f2741aeab643d3dbdbda43ee"
   end
 
   name        "WattsOrbit"
