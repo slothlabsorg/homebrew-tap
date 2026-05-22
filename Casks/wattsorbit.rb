@@ -6,16 +6,16 @@
 # Tap setup:      brew tap slothlabsorg/tap
 
 cask "wattsorbit" do
-  version "1.1.0"
+  version "1.1.1"
 
   on_arm do
     url "https://github.com/slothlabsorg/wattsorbit/releases/download/v#{version}/WattsOrbit_#{version}_aarch64.dmg"
-    sha256 "c726dfd9441806230434c706577310f228db683580cc2339c196c6e108b85175"
+    sha256 "b03040ddf5b6abf694630a7f5caf9b6b21c716e8e9ae95c18b1e4ab11565a7d4"
   end
 
   on_intel do
     url "https://github.com/slothlabsorg/wattsorbit/releases/download/v#{version}/WattsOrbit_#{version}_x64.dmg"
-    sha256 "7de7ad63be2504261f66549f01be4c24d40a1778f2741aeab643d3dbdbda43ee"
+    sha256 "ec4a8fc3b42f7362fcf18069e4974037303a894739cc1a7ea75d07ffba793967"
   end
 
   name        "WattsOrbit"
